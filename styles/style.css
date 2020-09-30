@@ -1,0 +1,20 @@
+body {
+    background: #00cec9
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The below code is for ease of layout and can be deleted when finished */
+section, aside {
+    border: 1px dotted black;
+}
