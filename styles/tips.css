@@ -1,0 +1,18 @@
+.tip-tank {
+    display: block;
+    padding-left: 1.5em;
+    text-align: center;
+}
+
+.tip-environment {
+    padding-left: 1.5em;
+}
+
+.list-tip {
+    text-align: center;
+    padding-left: 1.5em;
+}
+
+h4 {
+    text-align: center;
+}

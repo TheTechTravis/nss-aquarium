@@ -1,7 +1,23 @@
 @import "./fishList.css";
+@import "./travel.css";
+@import "./tips.css";
 
 body {
-    background-color: #2d3436;
+    background-color: #0984e3;
+}
+
+h1 {
+margin: 0px;
+text-align: center;
+color: #fab1a0;
+}
+.container-header {
+    padding: .5em 0em;
+    text-align: center;
+}
+
+h3 {
+margin: 0px;
 }
 
 .contentContainer {
@@ -14,18 +30,20 @@ body {
 
 .contentContainer-right {
     flex: 1;
-}
-
-/* PUT THESE IN THEIR OWN .CSS FILES!!! */
-.travel {
-    background-color: #ffeaa7;
-}
-
-.contentContainer-right {
     background-color: #a29bfe;
 }
 
-/* The below code is for ease of layout and can be deleted when finished */
-section, article, aside {
-    border: 1px dotted black;
+#hr-purple {
+    border: 1px solid #a29bfe;
+    margin-right: 1em;
 }
+
+#hr-blue {
+    border: 1px solid #00cec9;
+    margin-right: 1em;
+}
+
+/* The below code is for ease of layout and can be deleted when finished */
+/* section, article, aside {
+    border: 1px dotted black;
+} */

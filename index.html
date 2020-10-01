@@ -12,15 +12,15 @@
     <main>
 
         <header>
-            <h1>Martin's Aquatic Friends</h1>
+            <h1>Martin's Fishy Friends</h1>
         </header>
 
         <div class="contentContainer">
             <div class="contentContainer-left">
                 <section class="fishList">
-                    <h3>Current Collection</h3>
+                    <u><h3 class="container-header">Current Collection</h3></u>
 
-                    <ol>
+                    <ol class="fish-number">
                         <div class="fish">
                             <div class="fishContent">
                                 <li class="fish__name">Name: Charles</li>
@@ -78,17 +78,18 @@
 
                 <article class="travel">
                     <section class="travel__quotes">
-                        <h3>Travel Quotes</h3>
+                        <u><h3 class="container-header">Travel Quotes</h3></u>
                         <div class="quote">
                             <p class="quote__text">"We wander for distraction, but we travel for fulfillment."</p>
                             <p class="author">Author: Hilaire Belloc</p>
                             <p class="quote__location">Location: Mekong River</p>
+                            <hr id="hr-purple">
                         </div>
 
                     </section>
 
                     <section class="travel__locations">
-                        <h3>Harvest Locations</h3>
+                        <u><h3 class="container-header">Harvest Locations</h3></u>
                         <div class="location">
                             <img class="location__image"
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoJSm9snC3tZQnam3KyjwclLxOO42Hs3bFhg&usqp=CAU"
@@ -104,10 +105,27 @@
             <!-- This contains content to be displayed on right side of screen. -->
             <div class="contentContainer-right">
                 <aside class="tipsList">
-                    <h3>Maintenance Tips</h3>
-                    <div class="">
-                        <p class="tip__topic">Topic: Water Salination</p>
-                        <p class="tip__text">DO NOT USE SALTWATER!!!</p>
+                    <u><h3 class="container-header">Maintenance Tips</h3></u>
+                    <div class="tip__content">
+                        <h4>Tank Cleaning Procedure</h4>
+                        <ol class="tip-tank">
+                            <li>Test the water quality.</li>
+                            <li>Remove algae.</li>
+                            <li>Prune the plants.</li>
+                            <li>Turn off equipment.</li>
+                            <li>Vacuum the substrate.</li>
+                            <li>Clean the filter.</li>
+                            <li>Refill the water.</li>
+                            <li>Turn on equipment.</li>
+                            <li>Wipe the glass.</li>
+                            <hr id="hr-blue">
+                        </ol>
+
+                        <h4>Environmental Conditions</h4>
+                        <ul class="tip-environment">
+                            <li class="list-tip">Salinity: 1.020-1.028sg</li>
+                            <li class="list-tip">Temperature: 80 degrees Farenheit</li>
+                        </ul>
                     </div>
                 </aside>
             </div>
