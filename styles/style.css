@@ -2,7 +2,9 @@ body {
     background: #00cec9
 }
 
-
+.contentContainer {
+    display: flex;
+}
 
 
 
