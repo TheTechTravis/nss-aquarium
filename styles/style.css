@@ -1,5 +1,9 @@
 @import "./fishList.css";
 
+body {
+    background-color: #2d3436;
+}
+
 .contentContainer {
     display: flex;
 }
@@ -10,6 +14,15 @@
 
 .contentContainer-right {
     flex: 1;
+}
+
+/* PUT THESE IN THEIR OWN .CSS FILES!!! */
+.travel {
+    background-color: #ffeaa7;
+}
+
+.contentContainer-right {
+    background-color: #a29bfe;
 }
 
 /* The below code is for ease of layout and can be deleted when finished */
