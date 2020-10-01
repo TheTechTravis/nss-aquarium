@@ -1,8 +1,4 @@
-@import "./fishList.css"
-
-body {
-    background: #00cec9
-}
+@import "./fishList.css";
 
 .contentContainer {
     display: flex;
