@@ -1,3 +1,29 @@
 .fishList {
     background-color: #00cec9;
 }
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1.1em;
+    justify-content: space-evenly;
+}
+
+.fish__image{
+    width: 100%;
+}
+
+.fishContent {
+    padding:0em 1.1em;
+    /* width: 200px; */
+}
+
+
+.fish {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    
+    /* The below code is for ease of layout and can be deleted when finished */
+    border: 1px solid red;
+}
