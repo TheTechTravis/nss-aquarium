@@ -6,17 +6,15 @@ body {
     display: flex;
 }
 
+.contentContainer-left {
+    flex: 3;
+}
 
-
-
-
-
-
-
-
-
+.contentContainer-right {
+    flex: 1;
+}
 
 /* The below code is for ease of layout and can be deleted when finished */
-section, aside {
+section, article, aside {
     border: 1px dotted black;
 }
