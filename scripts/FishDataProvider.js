@@ -34,6 +34,6 @@ const fishCollection = [
 // Export a COPY of fishCollection so that other modules 
 // can import and use it. This protects the original array
 // from tampering.
-export const copyOfFishCollection = () => {
+export const sliceFishCollection = () => {
     return fishCollection.slice()
 }
