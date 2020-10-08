@@ -4,13 +4,16 @@
 export const FishList = () => {
 
     // Get a reference to the `<article class="content">` element
-    const contentElement = document.querySelector("insert selector here")
+    const contentElement = document.querySelector(".contentContainer-left")
     const fishes = useFish()
 
     // Add to the existing HTML in the content element
     contentElement.innerHTML += `
-        <article class="fishList">
-            All the fish go here!
-        </article>
+    <section class="fishList">
+    <h3 class="container-header">Fish List</h3>
+    <div class="fish">
+    Placeholder for list of fishes
+    </div>
+    </section>
     `
 }
