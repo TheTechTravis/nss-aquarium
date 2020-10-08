@@ -3,8 +3,4 @@ import { FishList } from './FishList.js'
 
 const copyOfFishCollection = sliceFishCollection()
 
-// for (const fish of copyOfFishCollection) {
-//     console.log(fish)
-// }
-
 FishList()
