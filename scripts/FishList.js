@@ -8,7 +8,7 @@ import { sliceFishCollection } from "./FishDataProvider.js"
 export const FishList = () => {
 
     // Get a reference to the `<article class="content">` element
-    const contentElement = document.querySelector(".contentContainer-left")
+    const contentElement = document.querySelector(".fishList")
     
     const fishes = sliceFishCollection()
 
@@ -18,16 +18,9 @@ export const FishList = () => {
     }
 
     contentElement.innerHTML += `
-    <section class="fishList">
-        <u><h3 class="container-header">Current Collection</h3></u>
-        <ol class="fishnumber">
-            <div class="fish">
-                <div class="fishContent">
-            </div>
-            Placeholder for list of fishes
-            ${fishHTMLRepresentations}
-            </div>
-        </ol>
-    </section>
+    <u><h3 class="container-header">Current Collection</h3></u>
+    <ol class="fishnumber">
+    ${fishHTMLRepresentations}
+    </ol>
     `
 }
