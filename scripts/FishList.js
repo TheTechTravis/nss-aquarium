@@ -1,19 +1,22 @@
 import { Fish } from "./Fish.js"
-// FishList which renders individual fish objects as HTML
-
-
-
-import { sliceFishCollection } from "./FishDataProvider.js"
+import { mostHolyFish, soldierFish, nonHolyFish, sliceFishCollection } from "./FishDataProvider.js"
 
 export const FishList = () => {
-
-    // Get a reference to the `<article class="content">` element
     const contentElement = document.querySelector(".fishList")
-    
-    const fishes = sliceFishCollection()
 
+    const mostHolyFishes = mostHolyFish()
     let fishHTMLRepresentations = ""
-    for (const fish of fishes) {
+    for (const fish of mostHolyFishes) {
+        fishHTMLRepresentations += Fish(fish)
+    }
+
+    const soldierFishes = soldierFish()
+    for (const fish of soldierFishes) {
+        fishHTMLRepresentations += Fish(fish)
+    }
+
+    const nonHolyFishes = nonHolyFish()
+    for (const fish of nonHolyFishes) {
         fishHTMLRepresentations += Fish(fish)
     }
 
