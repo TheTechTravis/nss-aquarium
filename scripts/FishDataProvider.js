@@ -1468,7 +1468,7 @@ export const sliceFishCollection = () => {
 
 // TODO: Complete the functions below, then rename them to be more clear.
 // 
-// These fish will be evenly divisible by 3.
+// These fish will be evenly divisible by 3
 export const mostHolyFish = () => {
     const holyFish = []
     for (const fish of fishCollection) {
@@ -1479,11 +1479,11 @@ export const mostHolyFish = () => {
     return holyFish
 }
 
-// These fish will be evenly divisible by 5.
+// These fish will be evenly divisible by 5 and NOT evenly divisible by 3
 export const soldierFish = () => {
     const soldierFish = []
     for (const fish of fishCollection) {
-        if (fish.length % 5 === 0) {
+        if (fish.length % 5 === 0 && fish.length % 3 !== 0) {
             soldierFish.push(fish)
         }
     }
